@@ -1,0 +1,52 @@
+/*
+	Author: Collom, Edward; Ortiz, Erick;
+	Last Modified: 02/22/21
+	Class: Senior Project 4950
+*/
+
+
+body { font-family: Arial, Verdana, sans-serif; }
+
+table, th, tr, td {
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 6px;
+}
+
+table {
+    width: 80%;
+    margin-left: 10%;
+}
+
+input {
+    margin: 6px;
+}
+
+/* inventoryscreen specific CSS */
+.inputForm, .description, .formStats {
+    border: 1px solid black;
+    padding: 6px;
+    margin: auto;
+    overflow: auto;
+}
+
+.inputForm {
+    margin-bottom: 80px;
+    width: 60%;
+}
+
+.description {
+    display:flex;
+    flex-flow: column;
+    width: 60%;
+    float: left;
+    height: 100%;
+}
+
+.formStats {
+    width: auto;
+    float: left;
+}
+
+.inputButton {
+}
